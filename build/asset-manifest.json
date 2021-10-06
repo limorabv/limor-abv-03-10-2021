@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/limor-abv-03-10-2021/static/css/main.8f12e7f5.chunk.css",
+    "main.js": "/limor-abv-03-10-2021/static/js/main.5efaa09d.chunk.js",
+    "main.js.map": "/limor-abv-03-10-2021/static/js/main.5efaa09d.chunk.js.map",
+    "runtime-main.js": "/limor-abv-03-10-2021/static/js/runtime-main.96b4050f.js",
+    "runtime-main.js.map": "/limor-abv-03-10-2021/static/js/runtime-main.96b4050f.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/limor-abv-03-10-2021/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.34bb9584.chunk.js": "/limor-abv-03-10-2021/static/js/2.34bb9584.chunk.js",
+    "static/js/2.34bb9584.chunk.js.map": "/limor-abv-03-10-2021/static/js/2.34bb9584.chunk.js.map",
+    "index.html": "/limor-abv-03-10-2021/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/limor-abv-03-10-2021/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.8f12e7f5.chunk.css.map": "/limor-abv-03-10-2021/static/css/main.8f12e7f5.chunk.css.map",
+    "static/js/2.34bb9584.chunk.js.LICENSE.txt": "/limor-abv-03-10-2021/static/js/2.34bb9584.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96b4050f.js",
+    "static/css/2.f4c56af9.chunk.css",
+    "static/js/2.34bb9584.chunk.js",
+    "static/css/main.8f12e7f5.chunk.css",
+    "static/js/main.5efaa09d.chunk.js"
+  ]
+}
