@@ -1,0 +1,36 @@
+.forcast-list {
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.forcast-item {
+    padding: 1rem;
+    background-color: rgb(109, 106, 106);
+    margin: 2rem auto;
+    width:19%;
+    /* max-width: 95%; */
+  }
+
+  
+
+  @media screen and (max-width: 770px) {
+    .forcast-list {
+        flex-direction: column;
+
+    }
+
+    .forcast-item {
+        width: 100%;
+
+    }
+
+    .forcast-item li{
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+
