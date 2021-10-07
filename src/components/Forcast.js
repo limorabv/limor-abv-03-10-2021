@@ -11,7 +11,7 @@ const Forcast = (props) => {
     const [forcast, setForcast] = useState([]);
 
     const fetchForcast = async (cityId) =>{
-        try {const forcastResponse = await fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityId}?apikey=${KEY}`);
+        try {const forcastResponse = await fetch(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityId}?apikey=${KEY}`);
         const forcastData = await forcastResponse.json();
         setForcast (forcastData.DailyForecasts);
     } catch (error) {
