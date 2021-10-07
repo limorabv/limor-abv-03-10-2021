@@ -78,7 +78,7 @@ const CurrenCity = () => {
         try {const latitude  = position.coords.latitude;
         const longitude = position.coords.longitude;
         console.log(`lat: ${latitude}, lon: ${longitude}`);
-        const cityResponse = await fetch(`http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?q=${latitude},${longitude}&apikey=${KEY}`)
+        const cityResponse = await fetch(`https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?q=${latitude},${longitude}&apikey=${KEY}`)
         const cityJson = await cityResponse.json();
         console.log(cityJson);
         const cityName = cityJson.LocalizedName;
