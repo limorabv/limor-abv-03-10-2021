@@ -17,12 +17,16 @@ const Favorites = () => {
         <ul>
           {favorites.map(favoriteItem => 
             <li className = "favorite-item">
-              <Link to = {`/city/${favoriteItem.name}`}> {favoriteItem.name} </Link>
-              <p>{favoriteItem.currentWeather}</p>
+              <Link to = {`/city/${favoriteItem.name}`}>
+                <h3> {favoriteItem.name}</h3>
+                <p>{favoriteItem.currentWeather}</p>
+               
+              </Link>
+              <button className = 'btn-close' onClick = { (e) => {e.stopPropagation(); dispatch(favoritesActions.removeFavorite(favoriteItem.id)) } }></button>
 
-              <button onClick = {() => {dispatch(favoritesActions.removeFavorite(favoriteItem.id))}}>remove</button>
-              
-            </li>)}
+            </li>
+         )
+            }
         </ul>
       </Fragment>  
 

@@ -1,12 +1,38 @@
 .favorite-item   {
-     display: flex;
-    justify-content: space-between;
+    display: flex;
     background-color: #918d8d;
     padding: 3px;
     margin-bottom: 5px;
+    padding: 11px;
+    align-items: center;
+    border-radius: 6px;
+    justify-content: space-between;
 }
 
+
+.favorite-item p {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #fffbf5;
+}
+
+.favorite-item h3 {
+    color: #fffbf5;
+
+}
+
+
+
 .favorite-item a {
-    display: flex;
+    /* display: flex;
+    align-items: center; */
     align-items: center;
+    width: 90%;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.favorite-item a:hover{
+    cursor: pointer;
 }
